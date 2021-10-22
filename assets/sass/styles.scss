@@ -168,16 +168,14 @@ body {
         padding-right: 22px;
     }
 }
+@media (max-width: 640px) {
 
+}
 @media (max-width: 400px) {
-    .main-slider-second-pagination {
-        bottom: 30px;
-    }
+    
 }
 @media (max-width: 350px) {
-    .main-slider-second-pagination {
-        bottom: 0px;
-    }
+
 }
 
 // responsivr end
