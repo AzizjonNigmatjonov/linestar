@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linestar</title>
+    
+    <link rel="stylesheet" href="../assets/css/uikit.min.css" />
+    <link rel="stylesheet" href="../assets/css/tailwind.css" />
+    
+    <link rel="stylesheet" href="../assets/sass/styles.css">
+    <link rel="icon" href="../assets/img/svg/logo.svg">
+    
+</head>
+<body>
+    <div uk-sticky="show-on-up: true; animation: uk-animation-slide-top; sel-target: .main-header; cls-active: uk-navbar-sticky bg-[#fff]; cls-inactive: uk-navbar-transparent z-[9]; top: 200;" class="navbar">
+        <header id="mainHeader" class="header main-header absolute top-0 left-0 w-full z-10 border-b border-[#fff] border-opacity-[0.06]">
+            
+            <div class="uk-container uk-container-xlarge">
+                <nav class="navbar uk-flex uk-flex-middle py-[34px]" uk-grid>
+                    
+                    <div class="uk-navbar-left">
+                        <div class="uk-flex-middle" uk-grid>
+                            <div>
+                                <ul class="uk-animation-fade">
+                                    <li>
+                                        <a href="index.html">
+                                            <img class="w-[148px]" src="../assets/img/svg/logo.svg" alt="Logo">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="uk-visible@l">
+                                <div>
+                                    <hr class="border-none w-[1px] h-[54px] bg-[#111111] bg-opacity-[0.06]">
+                                </div>
+                            </div>
+                            
+                            <div class="nav-menu">
+                                <ul class="uk-flex-middle 2xl:space-x-[7px]" uk-grid>
+                                    <li class="text-[#111] text-opacity-[0.64] uk-animation-fade">
+                                        <a href="about.html" class="nav-link active text-[#111] text-opacity-[0.64] hover-link-none">
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li class="text-[#111] text-opacity-[0.64] uk-animation-fade">
+                                        <a href="about.html" class="nav-link text-[#111] text-opacity-[0.64] hover-link-none">
+                                            About us
+                                        </a>
+                                    </li>
+                                    <li class="text-[#111] text-opacity-[0.64] uk-animation-fade">
+                                        <a href="about.html" class="nav-link text-[#111] text-opacity-[0.64] hover-link-none">
+                                            Why choose us
+                                        </a>
+                                    </li>
+                                    <li class="text-[#111] text-opacity-[0.64] uk-animation-fade">
+                                        <a href="service.html" class="nav-link text-[#111] text-opacity-[0.64] hover-link-none uk-flex uk-flex-middle group">
+                                            <span>Our services</span>
+                                            <svg class="ml-[6px] group-hover:rotate-[180deg] duration-200 stroke-current" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.5 4.75L6 8.25L2.5 4.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </a>
+                                        <div uk-dropdown="pos: bottom-left; animation: uk-animation-slide-top-small; duration: 200" style="padding: 20px 30px 30px 24px;">
+                                            <ul class="uk-nav uk-dropdown-nav">
+                                                <li class="uk-parent">
+                                                    <a href="training.html" class="uk-flex uk-flex-middle uk-flex-between mt-[3px] text-lg 2xl:text-xl">
+                                                        Treninglar
+                                                        <img class="w-[16px] h-[10px] rotate-[-90deg]" src="../assets/img/svg/arrow-bottom.svg" alt="arrow">
+                                                    </a>
+                                                </li>
+                                                <li class="uk-parent">
+                                                    <a href="cours.html" class="uk-flex uk-flex-middle uk-flex-between mt-[3px] text-lg 2xl:text-xl 2xl:mt-[10px]">
+                                                        Kurslar
+                                                        <img class="w-[16px] h-[10px] rotate-[-90deg]" src="../assets/img/svg/arrow-bottom.svg" alt="arrow">
+                                                    </a>
+                                                </li>
+                                                <li class="uk-parent">
+                                                    <a href="add.html" class="uk-flex uk-flex-middle uk-flex-between mt-[3px] text-lg 2xl:text-xl 2xl:mt-[10px]">
+                                                        Reklama xizmatlari
+                                                        <img class="w-[16px] h-[10px] rotate-[-90deg]" src="../assets/img/svg/arrow-bottom.svg" alt="arrow">
+                                                    </a>
+                                                </li>
+                                                <li class="uk-parent">
+                                                    <a href="shows.html" class="uk-flex uk-flex-middle uk-flex-between mt-[3px] text-lg 2xl:text-xl 2xl:mt-[10px]">
+                                                        Tijoriy ko‘rsatuvlar
+                                                        <img class="w-[16px] h-[10px] rotate-[-90deg]" src="../assets/img/svg/arrow-bottom.svg" alt="arrow">
+                                                    </a>
+                                                </li>
+                                                <li class="uk-parent">
+                                                    <a href="events.html" class="uk-flex uk-flex-middle uk-flex-between mt-[3px] text-lg 2xl:text-xl 2xl:mt-[10px]">
+                                                        Tadbirlar tashkillashtirish
+                                                        <img class="w-[16px] h-[10px] rotate-[-90deg]" src="../assets/img/svg/arrow-bottom.svg" alt="arrow">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="text-[#111] text-opacity-[0.64] uk-animation-fade">
+                                        <a href="about.html" class="nav-link text-[#111] text-opacity-[0.64] hover-link-none">
+                                            For drivers
+                                        </a>
+                                    </li>
+                                    <li class="text-[#111] text-opacity-[0.64] uk-animation-fade">
+                                        <a href="about.html" class="nav-link text-[#111] text-opacity-[0.64] hover-link-none">
+                                            Contacts
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="uk-navbar-right">
+                        <div class="uk-flex-middle uk-grid-medium" uk-grid>
+                            <div class="text-[#111] uk-visible@m uk-animation-fade">
+                                <a href="#" class="animBtnFill text-[18px] py-[14px] px-[24px] border-2 border-[#e3e3e5] rounded-[4px] hover-link-none text-[#111]">
+                                    Apply as driver
+                                </a>
+                            </div>
+                            <div class="text-[#111] uk-visible@m uk-animation-fade">
+                                <a href="#" class="animBtnFill text-[18px] py-[14px] px-[24px] border-2 border-[#e3e3e5] rounded-[4px] hover-link-none text-[#111]">
+                                    Request a quote
+                                </a>
+                            </div>
+                            
+                            <div class="uk-visible@m">
+                                <div class="nav-item text-[#111]">
+                                    <a href="#" class="nav-link hover:text-[#111] hover:no-underline text-[18px] text-[#111] flex items-center pl-[12px] uk-animation-fade group">
+                                        ENG
+                                        <svg class="ml-[6px] group-focus:rotate-[180deg] duration-200" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.5 4.75L6 8.25L2.5 4.75" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                            
+                                    </a>
+                                    <div class="uk-padding-remove rounded-[4px] border-t-2 border-[#CE0000]" style="min-width: 100px;" uk-dropdown="pos: bottom-justify;animation: uk-animation-slide-top-small; duration: 200; mode: click"> 
+                                        <ul class="uk-grid uk-grid-small uk-flex-middle uk-flex-column uk-padding-small" uk-grid >
+                                            <li class="uk-width-auto text-[#111]">
+                                                <a href="#" class="hover-link-none text-[#111] text-lg">
+                                                    RU
+                                                </a>
+                                            </li>
+                                            <li class="uk-width-auto text-[#111]">
+                                                <a href="#" class="hover-link-none text-[#111] text-lg">
+                                                    UZ
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="nav-bar uk-hidden">
+                                <div class="text-[#111]">
+                                    <a href="javascript:void(0);" uk-toggle="target: #offcanvas-flip" class="hover-link">
+                                        <ul class="uk-flex uk-flex-column space-y-[2px]">
+                                            <li>
+                                                <hr class="border-none w-[16px] h-[2px] bg-[#111]">
+                                            </li>
+                                            <li>
+                                                <hr class="border-none w-[16px] h-[2px] bg-[#111]">
+                                            </li>
+                                            <li>
+                                                <hr class="border-none w-[16px] h-[2px] bg-[#111]">
+                                            </li>
+                                        </ul>                                           
+                                    </a>
+                                </div>
+                                
+                                <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+                                    <div class="uk-offcanvas-bar">
+                                        
+                                        <div class="uk-flex uk-flex-right">
+                                            <button class="uk-offcanvas-close" type="button" uk-close>
+                                                <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg>
+                                            </button>
+                                        </div>
+                                        
+                                        <ul class="mt-[20px] items-end uk-flex-column uk-grid-small uk-text-uppercase uk-child-width-1-1" uk-grid uk-scrollspy="target: .animBottom; cls: uk-animation-slide-top-small; delay: 100; repeat: true">
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="service.html" class="font-400 animBottom">
+                                                    Home
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="about.html" class="font-400 animBottom">
+                                                    About us
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="cours.html" class="font-400 animBottom">
+                                                    Why choose us
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="training.html" class="font-400 animBottom">
+                                                    Our services
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="shows.html" class="font-400 animBottom">
+                                                    Dry van
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="events.html" class="font-400 animBottom">
+                                                    Partial Loads
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="add.html" class="font-400 animBottom">
+                                                    Partial Loads
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="contact.html" class="font-400 animBottom">
+                                                    For drivers
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="FAQ.html" class="font-400 animBottom">
+                                                    Contacts
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right uk-hidden@m">
+                                                <ul class="uk-grid-small uk-flex-middle" uk-grid>
+                                                    <li class="text-[#fff]">
+                                                        <a href="#" class="text-[#fff] font-400 hover-link animBottom">UZ</a>
+                                                    </li>
+                                                    <li>
+                                                        <hr class="border-none w-[1px] h-[16px] bg-[#fff] bg-opacity-[0.06]">
+                                                    </li>
+                                                    <li class="text-[#fff]">
+                                                        <a href="#" class="text-[#fff] font-400 hover-link animBottom">RU</a>
+                                                    </li>
+                                                    <li>
+                                                        <hr class="border-none w-[1px] h-[16px] bg-[#fff] bg-opacity-[0.06]">
+                                                    </li>
+                                                    <li class="text-[#fff]">
+                                                        <a href="#" class="text-[#fff] font-400 hover-link animBottom">EN</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <div class="uk-hidden@m">
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>   
+                    </div>                         
+                </nav>
+            </div>
+            
+        </header>
+    </div>
+    
+    <section class="uk-section uk-padding-remove-top mt-[-40px]">
+        <div>
+            <div class="uk-position-relative uk-visible-toggle uk-visible@m" tabindex="-1" uk-slideshow="animation: fade">
+                
+                <ul class="uk-slideshow-items relative uk-overflow-hidden">
+                    <li>
+                        <div class="main-img-1 absolute right-0 bottom-[-50px]">
+                            <img class="w-[1442px]" src="../assets/img/main/main-img-1.png" alt="main img" style="z-index: -1;">
+                        </div>
+                        <ul class="uk-padding-remove">
+                            <li class="uk-height-1-1">
+                                <div class="left-1/2 top-1/2 absolute w-full -translate-y-1/2 uk-container uk-container-xlarge -translate-x-1/2 uk-padding-remove-vertical">
+                                    <div class="uk-flex-middle uk-container uk-container-xlarge uk-padding-remove-vertical">
+                                        
+                                            <div class="main-text-wrapper w-[640px] lg:w-[660px] xl:w-[820px] 2xl:w-[940px] uk-grid-medium uk-child-width-1-1" uk-grid>
+                                                <h1 class="heading-main" style="color: #111;">
+                                                    A leader in respectful
+                                                    relationships on and
+                                                    off the road
+                                                </h1>
+                                                <div>
+                                                    <p class="text-xl xl:text-[22px] 2xl:text-[24px] text-[#111] text-opacity-[0.72] uk-width-1-2@l uk-width-3-4">
+                                                        Whether you’re a customer or a trucker, your needs matter to us.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="absolute right-0 bottom-[-30px]">
+                            <img class="w-[1058px]" src="../assets/img/main/main-img-2.png" alt="main img" style="z-index: -1;">
+                        </div>
+                        <ul class="uk-padding-remove">
+                            <li class="uk-height-1-1">
+                                <div class="left-1/2 top-1/2 absolute w-full -translate-y-1/2 uk-container uk-container-xlarge -translate-x-1/2 uk-padding-remove-vertical">
+                                    <div class="uk-flex-middle uk-container uk-container-xlarge uk-padding-remove-vertical"  uk-grid>
+                                        
+                                        <div class="w-[940px] uk-grid-medium uk-child-width-1-1" uk-grid>
+                                            <h1 class="heading-main" style="color: #111;">
+                                                Top tier technology
+                                                and timely deliveries
+                                            </h1>
+                                            <div>
+                                                <p class="text-[24px] text-[#111] text-opacity-[0.72] w-[560px]">
+                                                    Over the road capacity is no problem for us, as our fleet is equipped with state-of-the-art transponders, Elogs, and GPS systems.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <div class="main-slider-pagination absolute left-[140px] bottom-[70px] uk-flex-middle uk-flex-between uk-grid-small w-[385px]" uk-grid>
+                    <div>
+                        <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                    </div>
+
+                    <div>
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div>
+                                <a href="javascirpt:void(0);" uk-slideshow-item="next">
+                                    <img class="w-[48px] h-[48px]" src="../assets/img/svg/arrow-circle-left.svg" alt="arrow">
+                                </a>
+                            </div>
+                
+                            <div>
+                                <a href="javascirpt:void(0);" uk-slideshow-item="previous">
+                                    <img class="w-[48px] h-[48px] rotate-[180deg]" src="../assets/img/svg/arrow-circle-left.svg" alt="arrow">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="uk-hidden@m" uk-slider>
+
+                <div class="uk-position-relative mt-[200px] sm:mt-[160px]" tabindex="-1">
+            
+                    <ul class="uk-slider-items uk-child-width-1-1">
+                        <li>
+                            <div class="uk-card">
+                                <div class="uk-card-body uk-padding-remove">
+                                    <div class="main-second-slider-content uk-grid-small uk-child-width-1-1" uk-grid>
+                                        <h1 class="heading-main" style="color: #111;">
+                                            A leader in respectful
+                                            relationships on and
+                                            off the road
+                                        </h1>
+                                        <div>
+                                            <p class="text-lg sm:text-xl text-[#111] text-opacity-[0.72]">
+                                                Whether you’re a customer or a trucker, your needs matter to us.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-card-media-bottom flex justify-center sm:justify-end uk-overflow-hidden">
+                                    <img class="w-full sm:w-[580px]" src="../assets/img/main/main-img-1-second.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <img src="images/dark.jpg" alt="">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Headline</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+            
+                </div>
+            
+            
+                <div class="main-slider-second-pagination absolute w-full flex justify-center bottom-0 sm:bottom-0 left-1/2 -translate-x-1/2 uk-flex-middle uk-grid-large" uk-grid>
+                    <div>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                    </div>
+
+                    <div>
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div>
+                                <a href="javascirpt:void(0);" uk-slider-item="next">
+                                    <img class="w-[48px] h-[48px]" src="../assets/img/svg/arrow-circle-left.svg" alt="arrow">
+                                </a>
+                            </div>
+                
+                            <div>
+                                <a href="javascirpt:void(0);" uk-slider-item="previous">
+                                    <img class="w-[48px] h-[48px] rotate-[180deg]" src="../assets/img/svg/arrow-circle-left.svg" alt="arrow">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    
+    <script src="../assets/js/uikit-icons.min.js"></script>
+    <script src="../assets/js/uikit.min.js"></script>
+    
+    <script src="../assets/js/main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,293 @@
+*, *::after*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+}
+
+.nav-link.active {
+  color: #111;
+  opacity: 1;
+  border-bottom: 2px solid #CE0000;
+}
+
+.nav-link {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.uk-offcanvas-flip .uk-open > .uk-offcanvas-bar {
+  background-color: #111;
+}
+
+.navbar .uk-offcanvas-close {
+  position: static;
+  padding: 0;
+}
+
+.navbar .uk-offcanvas-close svg {
+  fill: #fff;
+}
+
+.navbar .uk-offcanvas-close svg:nth-child(2) {
+  display: none;
+}
+
+.uk-dotnav > .uk-active > * {
+  background-color: #111111cd !important;
+  opacity: 1 !important;
+}
+
+.uk-dotnav > * > * {
+  background-color: #111 !important;
+  opacity: 0.1 !important;
+}
+
+@media (min-width: 1920px) {
+  .header {
+    max-width: 1920px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .uk-section {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1800px) {
+  .main-img-1 img {
+    width: 1350px;
+  }
+  .main-slider-pagination {
+    left: 90px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .main-img-1 img {
+    width: 1290px;
+  }
+  .main-slider-pagination {
+    left: 40px;
+  }
+}
+
+@media (max-width: 1630px) {
+  .main-img-1 img {
+    width: 1200px;
+  }
+  .main-text-wrapper {
+    margin-left: 0px !important;
+  }
+  .main-slider-pagination {
+    left: 30px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .main-img-1 img {
+    width: 1160px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .main-img-1 img {
+    width: 1070px;
+  }
+}
+
+@media (max-width: 1536px) {
+  .main-img-1 img {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .nav-menu {
+    display: none;
+  }
+  .nav-bar {
+    display: block !important;
+  }
+  .main-img-1 img {
+    width: 1140px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .main-img-1 img {
+    width: 1060px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .main-img-1 img {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .main-img-1 img {
+    width: 900px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .main-slider-pagination {
+    width: 285px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-img-1 img {
+    width: 800px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .main-img-1 img {
+    width: 750px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .main-text-wrapper {
+    padding-top: 100px;
+  }
+  .main-img-1 img {
+    width: 700px;
+  }
+  .main-slider-pagination {
+    bottom: 0;
+  }
+}
+
+@media (max-width: 1030px) {
+  .main-img-1 {
+    bottom: -70px;
+  }
+}
+
+@media (max-width: 990px) {
+  .main-img-1 img {
+    width: 650px;
+  }
+  .main-slider-pagination {
+    bottom: -50px;
+  }
+}
+
+@media (max-width: 990px) {
+  .main-img-1 img {
+    width: 600px;
+  }
+}
+
+@media (max-width: 960px) {
+  .main-second-slider-content {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-slider-second-pagination {
+    bottom: 30px;
+  }
+}
+
+@media (max-width: 350px) {
+  .main-slider-second-pagination {
+    bottom: 70px;
+  }
+}
+
+.animBtnFill {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+  -webkit-transition: all .15s;
+  transition: all .15s;
+}
+
+.animBtnFill:before,
+.animBtnFill:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  bottom: -100%;
+  left: 0;
+  background: #CE0000;
+  z-index: -1;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.animBtnFill:before {
+  opacity: .5;
+}
+
+.animBtnFill:after {
+  -webkit-transition-delay: .15s;
+  transition-delay: .15s;
+}
+
+.animBtnFill:hover {
+  color: #fff !important;
+}
+
+.animBtnFill:hover:before,
+.animBtnFill:hover:after {
+  bottom: 0;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url("../fonts/jost/Jost-Medium.woff2") format("woff2"), url("../fonts/jost/Jost-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url("../fonts/jost/Jost-Regular.woff2") format("woff2"), url("../fonts/jost/Jost-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url("../fonts/jost/Jost-SemiBold.woff2") format("woff2"), url("../fonts/jost/Jost-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url("../fonts/jost/Jost-Light.woff2") format("woff2"), url("../fonts/jost/Jost-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url("../fonts/jost/Jost-Bold.woff2") format("woff2"), url("../fonts/jost/Jost-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+/*# sourceMappingURL=styles.css.map */

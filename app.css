@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .heading-main {
+        @apply text-[36px] sm:text-[48px] md:text-[56px] xl:text-[72px] 2xl:text-[86px] 2xl:leading-[106px] ;
+    }
+    .heading-main {
+        font-family: 'Jost', sans-serif; font-weight: 600;
+    }
+    .hover-link-none {
+        @apply hover:no-underline
+    }
+    .hover-link-none:hover {
+        color: inherit;
+    }
+    .font-300 {
+        font-weight: 300;
+    }
+    .font-400 {
+        font-weight: 400;
+    }
+    .font-500 {
+        font-weight: 500;
+    }
+    .font-600 {
+        font-weight: 600;
+    }
+    .font-800 {
+        font-weight: 800;
+    }
+}
