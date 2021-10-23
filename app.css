@@ -9,6 +9,18 @@
     .heading-main {
         font-family: 'Jost', sans-serif; font-weight: 600;
     }
+    .heading-second {
+        @apply text-[36px] xl:text-[50px] 2xl:text-[64px];
+    }
+    .heading-second {
+        font-family: 'Jost', sans-serif; font-weight: 600;
+    }
+    .heading-third {
+        @apply text-[30px] xl:text-[36px] 2xl:text-[48px];
+    }
+    .heading-third {
+        font-family: 'Jost', sans-serif; font-weight: 600;
+    }
     .hover-link-none {
         @apply hover:no-underline
     }
@@ -29,5 +41,8 @@
     }
     .font-800 {
         font-weight: 800;
+    }
+    .btn-first {
+        @apply py-[14px] px-[24px] rounded-[4px];
     }
 }

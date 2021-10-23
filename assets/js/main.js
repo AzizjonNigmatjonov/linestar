@@ -1,4 +1,37 @@
-const l = document.querySelector('.uk-dotnav > .uk-active > *')
-const text = document.createTextNode("This just got added");
-l.appendChild(text);
-l.style.background = 'red'
+const counters = document.querySelectorAll('.counter-wrapper');
+let onlyOnce = { value: true };
+
+window.onscroll = () => {
+    start(counters, onlyOnce);
+};
+
+function start(counters, onlyOnce) {
+    if (window.scrollY > 200 && onlyOnce.value) {
+        onlyOnce.value = false;
+        if (counters) {
+            counters.forEach(c => {
+                const counter = c.querySelector('.num');
+                animateValue(counter, 0, counter.innerText, 3000);
+            });
+        }
+    }
+}
+
+function animateValue(obj, start, end, duration) {
+
+    if (start === end) {
+        return;
+    }
+
+    const range = end - start;
+    let current = start;
+    const increment = end > start ? 1 : -1;
+    const stepTime = Math.abs(Math.floor(duration / range));
+    const timer = setInterval(() => {
+        current += increment;
+        obj.innerHTML = current;
+        if (current == end) {
+            clearInterval(timer);
+        }
+    }, stepTime);
+}
