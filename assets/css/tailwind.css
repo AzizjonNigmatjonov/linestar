@@ -1082,6 +1082,10 @@ video {
   margin-top: 36px;
 }
 
+.mt-\[\] {
+  margin-top: ;
+}
+
 .flex {
   display: flex;
 }
@@ -1718,6 +1722,10 @@ video {
   padding-top: 10px;
 }
 
+.pr-\[22px\] {
+  padding-right: 22px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2004,6 +2012,10 @@ video {
     width: 483px;
   }
 
+  .sm\:w-\[450px\] {
+    width: 450px;
+  }
+
   .sm\:justify-end {
     justify-content: flex-end;
   }
@@ -2028,6 +2040,10 @@ video {
 
   .sm\:pt-\[70px\] {
     padding-top: 70px;
+  }
+
+  .sm\:pr-0 {
+    padding-right: 0px;
   }
 
   .sm\:text-left {
