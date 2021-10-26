@@ -10,7 +10,7 @@ function start(counters, onlyOnce) {
         if (counters) {
             counters.forEach(c => {
                 const counter = c.querySelector('.num');
-                animateValue(counter, 0, counter.innerText, 1000);
+                animateValue(counter, 0, counter.innerText, 3500);
             });
         }
     }
