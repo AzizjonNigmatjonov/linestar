@@ -155,7 +155,16 @@ body {
 .main__swiper_left::after {
     display: none;
 }
-
+.swiper-pagination {
+    color: #111;
+    font-size: 18px;
+}
+.swiper-pagination-current {
+    margin-right: 10px;
+}
+.swiper-pagination-total {
+    margin-left: 10px;
+}
 .swiper-button-prev {
     top: auto !important;
     bottom: 0;
