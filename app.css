@@ -21,6 +21,12 @@
     .heading-third {
         font-family: 'Jost', sans-serif; font-weight: 600;
     }
+    .heading-four {
+        @apply text-[24px] xl:text-[30px] 2xl:text-[40px];
+    }
+    .heading-four {
+        font-family: 'Jost', sans-serif; font-weight: 500;
+    }
     .hover-link-none {
         @apply hover:no-underline
     }
@@ -41,6 +47,9 @@
     }
     .font-800 {
         font-weight: 800;
+    }
+    .leading-50 {
+        line-height: 50px;
     }
     .btn-first {
         @apply py-[14px] px-[24px] rounded-[4px];

@@ -12,26 +12,13 @@
     <link rel="stylesheet" href="../assets/sass/styles.css">
     <link rel="icon" href="../assets/img/svg/logo.svg">
     
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-    
-    <style>
-        .swiper {
-            width: 100%;
-            height: 100%;
-        }
-        .swiper-slide {
-            display: flex;
-            align-items: center;
-        }
-    </style>
 </head>
 <body>
     <div uk-sticky="show-on-up: true; animation: uk-animation-slide-top; sel-target: .header; cls-active: uk-navbar-sticky bg-[#fff]; cls-inactive: uk-navbar-transparent z-[9]; top: 200;" class="navbar">
-        <header id="mainHeader" class="header absolute top-0 left-0 w-full z-10 border-b border-[#fff] border-opacity-[0.06]">
+        <header id="mainHeader" class="header absolute top-0 left-0 w-full z-10 border-b border-[#f2f2f2]">
             
             <div class="uk-container uk-container-xlarge">
-                <nav class="navbar uk-flex uk-flex-middle py-[20px] sm:py-[34px]" uk-grid>
+                <nav class="navbar uk-flex uk-flex-middle" uk-grid>
                     
                     <div class="uk-navbar-left">
                         <div class="uk-flex-middle" uk-grid>
@@ -45,9 +32,9 @@
                                 </ul>
                             </div>
                             
-                            <div class="uk-visible@l">
+                            <div>
                                 <div>
-                                    <hr class="border-none w-[1px] h-[54px] bg-[#111111] bg-opacity-[0.06]">
+                                    <hr class="border-none w-[1px] h-[79px] sm:h-[128px] bg-[#111111] bg-opacity-[0.06]">
                                 </div>
                             </div>
                             
@@ -122,7 +109,7 @@
                     <div class="uk-navbar-right">
                         <div class="uk-flex-middle uk-grid-medium" uk-grid>
                             <div class="text-[#111] uk-visible@m uk-animation-fade">
-                                <a href="./apply.html" class="animBtnFill btn-first text-[18px] border-2 border-[#e3e3e5]  hover-link-none text-[#111]">
+                                <a href="apply.html" class="animBtnFill btn-first text-[18px] border-2 border-[#e3e3e5]  hover-link-none text-[#111]">
                                     Apply as driver
                                 </a>
                             </div>
@@ -359,652 +346,119 @@
         </header>
     </div>
     
-    <section class="uk-section">
-        <div class="swiper mySwiper uk-visible@l">
-            <div class="swiper-wrapper flex items-center">
-                <div class="swiper-slide">
-                    <ul class="uk-padding-remove w-full relative">
-                        <li class="uk-height-1-1">
-                            <div>
-                                <div class="uk-flex-middle uk-container uk-container-xlarge">
-                                    
-                                    <div class="main-text-wrapper w-[600px] lg:w-[620px] xl:w-[760px] 2xl:w-[900px] flex flex-col">
-                                        <h1 class="heading-main uk-animation-slide-bottom-medium" style="color: #111;">
-                                            A leader in respectful
-                                            relationships on and
-                                            off the road
-                                        </h1>
-                                        <div class="mt-[30px]">
-                                            <p class="text-xl xl:text-[22px] 2xl:text-[24px] text-[#111] text-opacity-[0.72] uk-width-1-2@l uk-width-3-4 uk-animation-slide-bottom-medium">
-                                                Whether you’re a customer or a trucker, your needs matter to us.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                
-                                <div class="main-img-1 absolute right-0 bottom-[-220px]" style="z-index: -1;">
-                                    <img class="w-[1442px]" src="../assets/img/main/main-img-1.png" alt="main img" style="z-index: -1;">
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="swiper-slide">
-                    <li>
-                        <div class="main-img-2 absolute right-0 bottom-[-530px]">
-                            <img class="w-[1000px]" src="../assets/img/main/main-img-2.png" alt="main img" style="z-index: -1;">
-                        </div>
-                        <ul class="uk-padding-remove">
-                            <li class="uk-height-1-1">
-                                <div class="left-1/2 top-1/2 absolute w-full -translate-y-1/2 uk-container uk-container-xlarge -translate-x-1/2 uk-padding-remove-vertical">
-                                    <div class="uk-flex-middle uk-container uk-container-xlarge uk-padding-remove-vertical">
-                                        
-                                        <div class="main-text-wrapper w-[600px] lg:w-[600px] xl:w-[780px] 2xl:w-[940px] uk-grid-medium uk-child-width-1-1" uk-grid>
-                                            <h1 class="heading-main" style="color: #111;">
-                                                Top tier technology
-                                                and timely deliveries
-                                            </h1>
-                                            <div>
-                                                <p class="text-xl xl:text-[22px] 2xl:text-[24px] text-[#111] text-opacity-[0.72] uk-width-3-5">
-                                                    Over the road capacity is no problem for us, as our fleet is equipped with state-of-the-art transponders, Elogs, and GPS systems.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                </div>
-                <div class="swiper-slide">
-                    <li>
-                        <div class="main-img-3 absolute right-0 bottom-[-500px]">
-                            <img class="w-[961px]" src="../assets/img/main/main-img-3.png" alt="main img" style="z-index: -1;">
-                        </div>
-                        <ul class="uk-padding-remove">
-                            <li class="uk-height-1-1">
-                                <div class="left-1/2 top-1/2 absolute w-full -translate-y-1/2 uk-container uk-container-xlarge -translate-x-1/2 uk-padding-remove-vertical">
-                                    <div class="uk-flex-middle uk-container uk-container-xlarge uk-padding-remove-vertical">
-                                        
-                                        <div class="main-text-wrapper w-[700px] xl:w-[900px] 2xl:w-[1030px] uk-grid-medium uk-child-width-1-1" uk-grid>
-                                            <h1 class="heading-main" style="color: #111;">
-                                                A wealth of opportunities
-                                                for drivers in North
-                                                America.
-                                            </h1>
-                                            <div>
-                                                <p class="text-xl xl:text-[22px] 2xl:text-[24px] text-[#111] text-opacity-[0.72] w-[440px]">
-                                                    Lucrative salaries, bonuses, awards, and enticing holiday pay, our drivers have sustainable career growth.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                </div>
-                <div class="swiper-slide">
-                    <li>
-                        <div class="main-img-4 absolute right-[40px] bottom-[-560px]">
-                            <img class="w-[979px]" src="../assets/img/main/main-img-4.png" alt="main img" style="z-index: -1;">
-                        </div>
-                        <ul class="uk-padding-remove">
-                            <li class="uk-height-1-1">
-                                <div class="left-1/2 top-1/2 absolute w-full -translate-y-1/2 uk-container uk-container-xlarge -translate-x-1/2 uk-padding-remove-vertical">
-                                    <div class="uk-flex-middle uk-container uk-container-xlarge uk-padding-remove-vertical">
-                                        
-                                        <div class="main-text-wrapper w-[500px] xl:w-[650px] 2xl:w-[700px] uk-grid-medium uk-child-width-1-1" uk-grid>
-                                            <h1 class="heading-main" style="color: #111;">
-                                                Round the clock
-                                                support
-                                            </h1>
-                                            <div>
-                                                <p class="text-xl xl:text-[22px] 2xl:text-[24px] text-[#111] text-opacity-[0.72] w-[380px] xl:w-[460px]">
-                                                    Our 24/7 logistics specialists are on standby to stop your truck from getting stuck and seek out reloads for you.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                </div>
-            </div>
-            <div class="ml-[90px] swiper-paginations-wrapper">
-                <div class="uk-container uk-container-xlarge flex justify-start uk-position-relative">
-                    <div class="swiper-button-next main__swiper_left"></div>
-                    <div class="swiper-button-prev main__swiper_right"></div>
-                    <div class="swiper-pagination flex justify-start ml-[0px]"></div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="swiper mySwiper mt-[70px] sm:mt-[100px] md:mt-[140px] uk-hidden@l">
-            <div class="swiper-wrapper flex items-center">
-                <div class="swiper-slide">
-                    <ul class="uk-padding-remove w-full relative">
-                        <li>
-                            <div class="uk-card">
-                                <div class="md:mx-[40px]">
-                                    <div class="main-second-slider-content uk-grid-small uk-child-width-1-1" uk-grid>
-                                        <h1 class="heading-main" style="color: #111;">
-                                            A leader in respectful
-                                            relationships on and
-                                            off the road
-                                        </h1>
-                                        <div>
-                                            <p class="text-lg sm:text-xl text-[#111] text-opacity-[0.72]">
-                                                Whether you’re a customer or a trucker, your needs matter to us.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="uk-card-media-bottom flex justify-center sm:justify-end uk-overflow-hidden">
-                                    <img class="w-full sm:w-[580px]" src="../assets/img/main/main-img-1-second.png" alt="">
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="swiper-slide">
-                    <li>
-                        <div class="uk-card">
-                            <div class="md:mx-[40px]">
-                                <div class="main-second-slider-content uk-grid-small uk-child-width-1-1" uk-grid>
-                                    <h1 class="heading-main" style="color: #111;">
-                                        Top tier technology
-                                        and timely deliveries
-                                    </h1>
-                                    <div>
-                                        <p class="text-lg sm:text-xl text-[#111] text-opacity-[0.72]">
-                                            Over the road capacity is no problem for us, as our fleet is equipped with state-of-the-art transponders, Elogs, and GPS systems.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-card-media-bottom flex justify-center sm:justify-end uk-overflow-hidden">
-                                <img class="w-full sm:w-[650px]" src="../assets/img/main/main-img-2.png" alt="">
-                            </div>
-                        </div>
-                    </li>
-                </div>
-                <div class="swiper-slide">
-                    <li>
-                        <div class="uk-card">
-                            <div class="md:mx-[40px]">
-                                <div class="main-second-slider-content uk-grid-small uk-child-width-1-1" uk-grid>
-                                    <h1 class="heading-main" style="color: #111;">
-                                        A wealth of opportunities
-                                        for drivers in North
-                                        America.
-                                    </h1>
-                                    <div>
-                                        <p class="text-lg sm:text-xl text-[#111] text-opacity-[0.72]">
-                                            Lucrative salaries, bonuses, awards, and enticing holiday pay, our drivers have sustainable career growth.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-card-media-bottom flex justify-center sm:justify-end uk-overflow-hidden">
-                                <img class="w-full sm:w-[650px]" src="../assets/img/main/main-img-3.png" alt="">
-                            </div>
-                        </div>
-                    </li>
-                </div>
-                <div class="swiper-slide">
-                    <li>
-                        <div class="uk-card">
-                            <div class="md:mx-[40px]">
-                                <div class="main-second-slider-content uk-grid-small uk-child-width-1-1" uk-grid>
-                                    <h1 class="heading-main" style="color: #111;">
-                                        Round the clock
-                                        support
-                                    </h1>
-                                    <div>
-                                        <p class="text-lg sm:text-xl text-[#111] text-opacity-[0.72]">
-                                            Our 24/7 logistics specialists are on standby to stop your truck from getting stuck and seek out reloads for you.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-card-media-bottom flex justify-center uk-overflow-hidden">
-                                <img class="w-full sm:w-[500px]" src="../assets/img/main/main-img-4.png" alt="">
-                            </div>
-                        </div>
-                    </li>
-                </div>
-            </div>
-            <div class="ml-[90px] swiper-paginations-wrapper">
-                <div class="uk-container uk-container-xlarge flex justify-start uk-position-relative">
-                    <div class="swiper-button-next main__swiper_left"></div>
-                    <div class="swiper-button-prev main__swiper_right"></div>
-                    <div class="swiper-pagination flex justify-start ml-[0px]"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="uk-section">
-        <div class="uk-grid-collapse uk-flex-middle uk-flex-center uk-child-width-1-2@m uk-child-height-1-1 uk-flex-wrap-reverse" uk-grid>
-            <div class="uk-width-1-2@m">
-                <div class="uk-container uk-container-xlarge digitals-container">
-                    <div class="uk-width-1-1">
-                        <div class="uk-flex uk-flex-center">
-                            <div class="digitals-number-wrapper uk-child-width-1-2 uk-flex-wrap uk-grid-large" uk-grid>
-                                <div class="counter-wrapper uk-overflow-hidden uk-text-center uk-text-left@s">
-                                    <div class="text-[36px] sm:text-[56px] xl:text-[82px] 2xl:text-[86px] text-[#CE0000] font-500 flex space-x-[5px] uk-flex-center uk-flex-left@s">
-                                        <span class="num">72</span>
-                                        <span>+</span>
-                                    </div>
-                                    <div class="border-t-[3px] border-[#111] border-opacity-[0.06] uk-width-3-4@s">
-                                        <p class="text-[#111] text-xl 2xl:text-[24px] pt-[10px]">Clients</p>
-                                    </div>
-                                </div>
-                                <div class="counter-wrapper uk-overflow-hidden uk-text-center uk-text-left@s">
-                                    <div class="text-[36px] sm:text-[56px] xl:text-[82px] 2xl:text-[86px] text-[#CE0000] font-500 flex space-x-[5px] uk-flex-center uk-flex-left@s">
-                                        <span class="num">250</span>
-                                        <span>+</span>
-                                    </div>
-                                    <div class="border-t-[3px] border-[#111] border-opacity-[0.06] uk-width-3-4@s">
-                                        <p class="text-[#111] text-xl 2xl:text-[24px] pt-[10px]">Clients</p>
-                                    </div>
-                                </div>
-                                <div class="counter-wrapper uk-overflow-hidden uk-text-center uk-text-left@s">
-                                    <div class="text-[36px] sm:text-[56px] xl:text-[82px] 2xl:text-[86px] text-[#CE0000] font-500 flex space-x-[5px] uk-flex-center uk-flex-left@s">
-                                        <span class="num">272</span>
-                                        <span>+</span>
-                                    </div>
-                                    <div class="border-t-[3px] border-[#111] border-opacity-[0.06] uk-width-3-4@s">
-                                        <p class="text-[#111] text-xl 2xl:text-[24px] pt-[10px]">Clients</p>
-                                    </div>
-                                </div>
-                                <div class="counter-wrapper uk-overflow-hidden uk-text-center uk-text-left@s">
-                                    <div class="text-[36px] sm:text-[56px] xl:text-[82px] 2xl:text-[86px] text-[#CE0000] font-500 flex space-x-[5px] uk-flex-center uk-flex-left@s">
-                                        <span class="num">5</span>
-                                        <span>+</span>
-                                    </div>
-                                    <div class="border-t-[3px] border-[#111] border-opacity-[0.06] uk-width-3-4@s">
-                                        <p class="text-[#111] text-xl 2xl:text-[24px] pt-[10px]">Clients</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <section class="uk-section pt-[140px] sm:pt-[180px]" uk-scrollspy="target: .animTop; cls: uk-animation-slide-bottom-medium; delay: 100; repeat: true">
+        <div class="uk-container uk-container-xlarge">
+            <div> 
+                <p class="text-[#CE0000] uk-text-uppercase">FOR DRIVERS</p>
+                <h1 class="heading-second text-[#111] mt-[24px] animTop">Drive for Us</h1>
+                <div class="mt-[18px] lg:w-[700px]">
+                    <p class="text-[#111] text-opacity-[0.86] text-lg xl:text-xl 2xl:text-2xl animTop">
+                        We're proud to say that most of our drivers who have been with us since the beginning are still with us today.
+                    </p>
                 </div>
             </div>
             
-            <div class="bg-[#f9f9f9] uk-padding-large">
-                <div class="uk-flex uk-flex-column xl:w-[95%] 2xl:w-[88%]">
-                    <h2 class="heading-second text-[#111]">About us</h2>
-                    <div class="mt-[25px] uk-flex uk-flex-column space-y-[30px]">
-                        <div>
-                            <p class="text-lg xl:text-xl 2xl:text-2xl text-[#111] text-opacity-[0.72]">
-                                Founded by a former trucker, Lonestar Logistics is a freight company that places its drivers at the forefront of its operations. We’re a company that’s constantly evolving its ways to make drivers feel like valued family members. Our team is vast, experienced, and are fully supported on and off the road in North America. 
-                            </p>
-                        </div>
-                        
-                        <div>
-                            <p class="text-lg xl:text-xl 2xl:text-2xl text-[#111] text-opacity-[0.72]">
-                                We provide truckers with a state of the art fleet using vehicles such as the latest Freightliner, Volvos, Kenworth, or International vehicles before their commercial release. Plus, we have a track record for ensuring timely deliveries and surpassing our customer expectations. 
-                            </p>
-                        </div>
-                        <div>
-                            <p class="text-lg xl:text-xl 2xl:text-2xl text-[#111] text-opacity-[0.72]">
-                                Most importantly, we devote ourselves to building respectful relationships for our drivers and logistics team members. We believe we only can succeed if we operate according to their needs.
-                            </p>
-                        </div>
-                        <div>
-                            <div class="uk-display-inline-block text-[#CE0000]">
-                                <a href="#" class="text-[22px] xl:text-[26px] 2xl:text-[30px] text-[#CE0000] font-600 uk-flex uk-flex-middle hover-link-none group">
-                                    Read more
-                                    <svg class="ml-[8px] mt-[5px] group-hover:ml-[15px] duration-200" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M14.4299 5.93005L20.4999 12.0001L14.4299 18.0701" stroke="#CE0000" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M3.5 12H20.33" stroke="#CE0000" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>                                        
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="uk-section" uk-scrollspy="target: .animTop; cls: uk-animation-slide-bottom-medium; delay: 200;">
-        <div class="uk-container uk-container-xlarge">
-            <div class="relative">
-                <h2 class="heading-second text-[#111]" uk-scrollspy="cls: uk-animation-slide-bottom-medium; delay: 100; repeat: true">Why choose us</h2>
-                <div class="uk-visible@s absolute right-0 bottom-0 text-[#CE0000aa]">
-                    <a href="#" class="text-[#CE0000] font-500 text-lg xl:text-xl 2xl:text-2xl flex items-center hover-link-none duration-300">
-                        Learn more
-                        <svg class="ml-[6px] stroke-current" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M14.4299 5.93005L20.4999 12.0001L14.4299 18.0701" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3.5 12H20.33" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>                            
-                    </a>
-                </div>
-            </div>
-            <div class="mt-[29px]">
-                <ul class="uk-grid-small uk-grid-match uk-child-width-1-5@l uk-child-width-1-3@m uk-child-width-1-2@s" uk-grid>
+            <div class="uk-margin-large-top" uk-scrollspy="target: .animFade; cls: uk-animation-fade; delay: 100; repeat: true">
+                <ul class="uk-grid-collapse uk-child-width-1-1 about-list" uk-grid>
                     <li>
-                        <div class="bg-[#f8f8f8] rounded-[4px] py-[45px] px-[35px] uk-overflow-hidden max-h-[232px] animTop">
-                            <div class="uk-flex uk-flex-column justify-center">
-                                <div>
-                                    <img class="w-[48px] h-[48px] object-cover" loading="lazy" src="../assets/img/svg/why-img-1.svg" alt="calendar">
-                                </div>
-                                <div class="mt-[18px]">
-                                    <p class="text-lg xl:text-xl 2xl:text-2xl text-[#111]">
-                                        Dedicated drivers towards
-                                    </p>
+                        <div class="uk-grid-collapse uk-child-width-1-2@m flex-wrap-reverse uk-flex-middle uk-grid-match" uk-grid>
+                            <div>
+                                <img class="object-cover animFade" src="../assets/img/about/about-img-1.png" alt="about img">
+                            </div>
+                            <div>
+                                <div class="flex flex-col uk-text-center sm:px-[20px] xl:px-[107px]">
+                                    <h3 class="text-[24px] lg:text-[30px] xl:text-[32px] 2xl:text-[36px] font-500">
+                                        Since beginning
+                                    </h3>
+                                    <div class="mt-[9px] lg:mt-[18px]">
+                                        <p class="text-[#111] lg:text-lg text-opacity-[0.72]">
+                                            At Linestar Logistics, we wouldn't be where we are today if it wasn't for the dedicated team that works night and day for us driving across the country. We're proud to say that most of our drivers who have been with us since the beginning are still with us today. With our founder originally being a trucker himself, we know how important it is for a driver's rights to be understood.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <div class="bg-[#f8f8f8] rounded-[4px] py-[45px] px-[35px] uk-overflow-hidden max-h-[232px] animTop">
-                            <div class="uk-flex uk-flex-column justify-center">
-                                <div>
-                                    <img class="w-[48px] h-[48px] object-cover" loading="lazy" src="../assets/img/svg/why-img-2.svg" alt="calendar">
-                                </div>
-                                <div class="mt-[18px]">
-                                    <p class="text-lg xl:text-xl 2xl:text-2xl text-[#111]">
-                                        Non stop support
-                                        and safety
-                                    </p>
+                        <div class="uk-grid-collapse uk-child-width-1-2@m flex-wrap-reverse uk-flex-middle uk-grid-match" uk-grid>
+                            <div>
+                                <img class="object-cover animFade" src="../assets/img/about/about-img-2.png" alt="about img">
+                            </div>
+                            <div>
+                                <div class="flex flex-col uk-text-center sm:px-[20px] xl:px-[107px]">
+                                    <h3 class="text-[24px] lg:text-[30px] xl:text-[32px] 2xl:text-[36px] font-500">
+                                        $1700-$2300 weekly
+                                    </h3>
+                                    <div class="mt-[9px] lg:mt-[18px]">
+                                        <p class="text-[#111] lg:text-lg text-opacity-[0.72]">
+                                            That's why, if you drive with us, you're treated like family, provided with job security, a competitive salary, and the latest freight vehicles. To be more specific, our drivers are earning between $1700-$2300 weekly. At the minimum, they're earning $1200 without any commission or bonuses. Most importantly, we pay you on time, cover your layovers and detention too. 
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <div class="bg-[#f8f8f8] rounded-[4px] py-[45px] px-[35px] uk-overflow-hidden max-h-[232px] animTop">
-                            <div class="uk-flex uk-flex-column justify-center">
-                                <div>
-                                    <img class="w-[48px] h-[48px] object-cover" loading="lazy" src="../assets/img/svg/why-img-3.svg" alt="calendar">
-                                </div>
-                                <div class="mt-[18px]">
-                                    <p class="text-lg xl:text-xl 2xl:text-2xl text-[#111]">
-                                        Constant communication
-                                    </p>
+                        <div class="uk-grid-collapse uk-child-width-1-2@m flex-wrap-reverse uk-flex-middle uk-grid-match" uk-grid>
+                            <div>
+                                <img class="object-cover animFade" src="../assets/img/about/about-img-3.png" alt="about img">
+                            </div>
+                            <div>
+                                <div class="flex flex-col uk-text-center sm:px-[20px] xl:px-[107px]">
+                                    <h3 class="text-[24px] lg:text-[30px] xl:text-[32px] 2xl:text-[36px] font-500">
+                                        We prioritize our drivers
+                                    </h3>
+                                    <div class="mt-[9px] lg:mt-[18px]">
+                                        <p class="text-[#111] lg:text-lg text-opacity-[0.72]">        
+                                            We also understand how tiring long haul driving can be. For this reason, we prioritize our driver's comfort and safety by using the latest Freightliners, Volvos, Kenworth, and International's well before their commercial release.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <div class="bg-[#f8f8f8] rounded-[4px] py-[45px] px-[35px] uk-overflow-hidden max-h-[232px] animTop">
-                            <div class="uk-flex uk-flex-column justify-center">
-                                <div>
-                                    <img class="w-[48px] h-[48px] object-cover" loading="lazy" src="../assets/img/svg/why-img-4.svg" alt="calendar">
-                                </div>
-                                <div class="mt-[18px]">
-                                    <p class="text-lg xl:text-xl 2xl:text-2xl text-[#111]">
-                                        Innovative
-                                        methods
-                                    </p>
+                        <div class="uk-grid-collapse uk-child-width-1-2@m flex-wrap-reverse uk-flex-middle uk-grid-match" uk-grid>
+                            <div>
+                                <img class="object-cover animFade" src="../assets/img/about/about-img-4.png" alt="about img">
+                            </div>
+                            <div>
+                                <div class="flex flex-col uk-text-center sm:px-[20px] xl:px-[107px]">
+                                    <h3 class="text-[24px] lg:text-[30px] xl:text-[32px] 2xl:text-[36px] font-500">
+                                        24/7 specialist logistics team
+                                    </h3>
+                                    <div class="mt-[9px] lg:mt-[18px]">
+                                        <p class="text-[#111] lg:text-lg text-opacity-[0.72]">
+                                            We know first hand the risks, burdens, and time delays drivers can face, which is why we equip our vehicles with Samsara devices, with forward facing cameras, E logs, Transponders for tolls and scales, GPS, and more. Most importantly, we have a 24/7 specialist logistics team who monitor your vehicle and are there to help you with any problem or reload at any time you need.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <div class="bg-[#f8f8f8] rounded-[4px] py-[45px] px-[35px] uk-overflow-hidden max-h-[232px] animTop">
-                            <div class="uk-flex uk-flex-column justify-center">
-                                <div>
-                                    <img class="w-[48px] h-[48px] object-cover" loading="lazy" src="../assets/img/svg/why-img-5.svg" alt="calendar">
-                                </div>
-                                <div class="mt-[18px]">
-                                    <p class="text-lg xl:text-xl 2xl:text-2xl text-[#111]">
-                                        Competent at handling complexities
-                                    </p>
+                        <div class="uk-grid-collapse uk-child-width-1-2@m flex-wrap-reverse uk-flex-middle uk-grid-match" uk-grid>
+                            <div>
+                                <img class="object-cover animFade" src="../assets/img/about/testimonials-img.png" alt="about img">
+                            </div>
+                            <div>
+                                <div class="flex flex-col uk-text-center sm:px-[20px] xl:px-[107px]">
+                                    <h3 class="text-[24px] lg:text-[30px] xl:text-[32px] 2xl:text-[36px] font-500">
+                                        Innovative logistic company
+                                    </h3>
+                                    <div class="mt-[9px] lg:mt-[18px]">
+                                        <p class="text-[#111] lg:text-lg text-opacity-[0.72]">
+                                            Linestar logistics is an innovative carrier company devoted to ensuring rapid delivery times for customers in America. We supply our high caliber truckers with state-of-the-art fleet that changes on a 24 month basis. All are equipped with transponders and Elogs to ensure your freight is delivered with as few time constraints as possible. 
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </li>
                 </ul>
             </div>
-            <div class="uk-hidden@s text-[#CE0000aa] mt-[30px]">
-                <a href="#" class="text-[#CE0000] font-500 text-lg xl:text-xl 2xl:text-2xl flex items-center hover-link-none duration-300">
-                    Learn more
-                    <svg class="ml-[6px] stroke-current" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M14.4299 5.93005L20.4999 12.0001L14.4299 18.0701" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M3.5 12H20.33" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>                            
-                </a>
-            </div>
         </div>
-    </section>
-    
-    <section class="uk-section uk-overflow-hidden" uk-scrollspy="target: .animFade; cls: uk-animation-fade; delay: 300; repeat: true">
-        <div class="uk-container uk-container-xlarge">
-            <div class="uk-text-center">
-                <h2 class="heading-second text-[#111]" uk-scrollspy="cls: uk-animation-slide-bottom-medium; delay: 100; repeat: true">Our services</h2>
-            </div>
-            <div class="relative why-section-contents-wrapper">
-                <img class="w-full" src="../assets/img/main/service-img.png" alt="service">
-                
-                <div class="why-content-1 absolute top-[650px] right-0">
-                    <div class="w-[440px] flex justify-end">
-                        <div class="flex flex-col space-y-[20px] relative">
-                            <div>
-                                <h3 class="heading-third text-[#CE0000] uk-display-inline-block pb-[20px]">Dry Van</h3>
-                            </div>
-                            <div class="why-content-1-line absolute top-[60px] left-0">
-                                <img src="../assets/img/svg/why-line-fat.svg" alt="line">
-                            </div>
-                            <div class="why-content-1-thin-line absolute top-[61px] left-[-210px]">
-                                <div class="w-[220px] h-[1px] bg-[#111] bg-opacity-[0.08]"></div>
-                            </div>
-                            <div class="why-content-1-circle absolute top-[46px] left-[-240px]">
-                                <div class="w-[30px] h-[30px] bg-[#fff] rounded-full flex items-center justify-center">
-                                    <div class="bg-[#CE0000] w-[18px] h-[18px] rounded-full"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <p class="w-[350px] 2xl:w-auto text-lg xl:text-xl 2xl:text-2xl text-[#111] animFade">
-                                    Send or receive goods straight from the warehouse over a long distance with our state of the art trailers. 
-                                </p>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-                
-                <div class="why-content-2 absolute top-[900px] left-0">
-                    <div class="w-[440px] flex flex-col space-y-[20px] relative">
-                        <div>
-                            <h3 class="heading-third text-[#CE0000] uk-display-inline-block pb-[20px]">Partial Loads</h3>
-                        </div>
-                        <div class="why-content-2-line absolute top-[60px] left-0">
-                            <img src="../assets/img/svg/why-line-fat.svg" alt="line">
-                        </div>
-                        <div class="why-content-2-thin-line absolute top-[61px]  right-[-230px]">
-                            <div class="w-[500px] h-[1px] bg-[#111] bg-opacity-[0.08]"></div>
-                        </div>
-                        <div class="why-content-2-circle absolute top-[46px] right-[-260px]">
-                            <div class="w-[30px] h-[30px] bg-[#fff] rounded-full flex items-center justify-center">
-                                <div class="bg-[#CE0000] w-[18px] h-[18px] rounded-full"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="w-[340px] 2xl:w-auto text-lg xl:text-xl 2xl:text-2xl text-[#111] animFade">
-                                Reserve a specific area of our vehicles to send a small number of goods at an economical price across the country.
-                            </p>
-                        </div>
-                    </div> 
-                </div>
-                
-                <div class="why-content-3 absolute top-[1150px] right-0">
-                    <div class="w-[440px] flex justify-end">
-                        <div class="flex flex-col space-y-[20px] relative">
-                            <div>
-                                <h3 class="heading-third text-[#CE0000] uk-display-inline-block pb-[20px]">Drop and Hook</h3>
-                            </div>
-                            <div class="why-content-3-line absolute top-[60px] left-0">
-                                <img src="../assets/img/svg/why-line-fat.svg" alt="line">
-                            </div>
-                            <div class="why-content-3-thin-line absolute top-[61px] left-[-250px]">
-                                <div class="w-[300px] h-[1px] bg-[#111] bg-opacity-[0.08]"></div>
-                            </div>
-                            <div class="why-content-3-circle absolute top-[46px] left-[-260px]">
-                                <div class="w-[30px] h-[30px] bg-[#fff] rounded-full flex items-center justify-center">
-                                    <div class="bg-[#CE0000] w-[18px] h-[18px] rounded-full"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <p class="w-[350px] 2xl:w-auto text-lg xl:text-xl 2xl:text-2xl text-[#111] animFade">
-                                    Our drivers can take your goods straight to the shipper or pick them up directly from the port.
-                                </p>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-                
-                <div class="why-content-4 absolute top-[1400px] left-0">
-                    <div class="w-[440px] flex flex-col relative">
-                        <div class="text-[#CE0000]">
-                            <a href="#" class="text-[#CE0000] font-500 text-lg xl:text-xl 2xl:text-2xl flex items-center hover-link-none group">
-                                Learn more
-                                <img class="ml-[6px] group-hover:ml-[16px] duration-200" src="../assets/img/svg/arrow-right.svg" alt="arrow">
-                            </a>
-                        </div>
-                        <div class="why-content-4-line absolute top-[45px] left-0">
-                            <img src="../assets/img/svg/why-line-fat.svg" alt="line">
-                        </div>
-                        <div class="why-content-4-thin-line absolute top-[46px]  right-[-240px]">
-                            <div class="w-[510px] h-[1px] bg-[#111] bg-opacity-[0.08]"></div>
-                        </div>
-                        <div class="why-content-4-circle absolute top-[30px] right-[-260px]">
-                            <div class="w-[30px] h-[32px] bg-[#fff] rounded-full flex items-center justify-center">
-                                <div class="bg-[#CE0000] w-[18px] h-[18px] rounded-full"></div>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-            
-            <div class="why-section-contents-wrapper-2 uk-hidden" uk-scrollspy="target: .animTop; cls: uk-animation-slide-bottom-medium; delay: 100;">
-                <div class="pt-[40px] sm:pt-[70px] relative">
-                    
-                    <div class="absolute right-[-22px] sm:right-[-30px] md:right-[-40px]" style="z-index: -1;" uk-parallax="y: 200,0; easing: -2">
-                        <img src="../assets/img/main/service-img-mob.png" alt="service img">
-                    </div>
-                    
-                    <div class="uk-child-width-1-1 uk-grid-large" uk-grid>
-                        <div>
-                            <div class="uk-width-1-2@m uk-width-3-4@s uk-width-3-5">
-                                <div class="flex flex-col space-y-[20px] relative">
-                                    <div>
-                                        <h3 class="heading-third text-[#CE0000] uk-display-inline-block animTop">Dry Van</h3>
-                                    </div>
-                                    <div>
-                                        <p class="2xl:w-auto text-lg sm:text-xl text-[#111] animTop">
-                                            Send or receive goods straight from the warehouse over a long distance with our state of the art trailers. 
-                                        </p>
-                                    </div>
-                                </div> 
-                            </div>
-                        </div>
-                        <div>
-                            <div class="uk-width-1-2@m uk-width-3-4@s uk-width-3-5">
-                                <div class="flex flex-col space-y-[20px] relative">
-                                    <div>
-                                        <h3 class="heading-third text-[#CE0000] uk-display-inline-block animTop">Dry Van</h3>
-                                    </div>
-                                    <div>
-                                        <p class="2xl:w-auto text-lg sm:text-xl text-[#111] animTop">
-                                            Send or receive goods straight from the warehouse over a long distance with our state of the art trailers. 
-                                        </p>
-                                    </div>
-                                </div> 
-                            </div>
-                        </div>
-                        <div>
-                            <div class="uk-width-1-2@m uk-width-3-4@s uk-width-3-5">
-                                <div class="flex flex-col space-y-[20px] relative">
-                                    <div>
-                                        <h3 class="heading-third text-[#CE0000] uk-display-inline-block animTop">Dry Van</h3>
-                                    </div>
-                                    <div>
-                                        <p class="2xl:w-auto text-lg sm:text-xl text-[#111] animTop">
-                                            Send or receive goods straight from the warehouse over a long distance with our state of the art trailers. 
-                                        </p>
-                                    </div>
-                                </div> 
-                            </div>
-                        </div>
-                        <div>
-                            <div class="uk-width-1-2@m uk-width-3-4@s uk-width-3-5">
-                                <div class="text-[#CE0000]">
-                                    <a href="#" class="text-[#CE0000] font-500 text-lg xl:text-xl 2xl:text-2xl flex items-center hover-link-none group">
-                                        Learn more
-                                        <img class="ml-[6px] group-hover:ml-[16px] duration-200" src="../assets/img/svg/arrow-right.svg" alt="arrow">
-                                    </a>
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="uk-section uk-overflow-hidden uk-padding-remove-top" uk-scrollspy="target: .animTop; cls: uk-animation-slide-bottom-medium; delay: 100">
-        <div class="uk-grid-collapse uk-flex-between uk-child-width-1-1 uk-child-width-auto@m" uk-grid>
-            <div class="uk-padding uk-padding-remove-left uk-padding-remove-right uk-padding-remove-bottom">
-                <div class="uk-container uk-container-xlarge uk-padding-remove-right uk-padding-remove-bottom">
-                    <div class="uk-width-1-1 uk-flex uk-flex-center 2xl:pl-[70px]">
-                        <div class="work-text-side-wrapper w-[500px] xl:w-[550px] 2xl:w-[600px] uk-flex uk-flex-center uk-margin-small-left">
-                            <div class="work-text-side-wrapper__wrapper">
-                                <div>
-                                    <div class="uk-grid-small uk-child-width-1-1" uk-grid>
-                                        <h1 class="heading-main text-[#111] animTop">
-                                            Work for us
-                                        </h1>
-                                        <div>
-                                            <p class="text-xl xl:text-[22px] 2xl:text-[24px] text-[#111] animTop">
-                                                Our drivers are treated like our own family members. They earn a salary of $1200 upwards, most of which are earning between $1700-$2300 a week.
-                                            </p>
-                                        </div>
-                                        <div class="hidden lg:block">
-                                            <div class="mt-[40px]">
-                                                <a href="#" class="btn-first text-lg text-[#fff] bg-[#CE0000]">
-                                                    Learn more here
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="uk-width-expand">
-                <div uk-parallax="x: 300,0; easing: -2">                        
-                    <div class="relative">
-                        <img class="w-full sm:w-[1206px]" src="../assets/img/main/work-img.png" alt="work img">
-                        <div class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
-                            <div class="w-[280px] sm:w-[390px] xl:w-[550px] 2xl:w-[600px]">
-                                <p class="text-[#fff] text-opacity-[0.72] text-[26px] sm:text-[36px] xl:text-[48px] 2xl:text-[56px] font-bold rotate-[-5.41deg] w-full"><span>$1700-$2300</span> a week.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="uk-container uk-container-xlarge">
-            <div class="lg:hidden w-full">
-                <div class="mt-[40px]">
-                    <a href="#" class="btn-first text-lg text-[#fff] bg-[#CE0000]">
-                        Learn more here
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+    </section>  
     
     <section class="uk-section">
         <div class="uk-container uk-container-xlarge">
@@ -1027,25 +481,550 @@
                 
                 <div class="uk-flex-middle uk-flex-between uk-padding-large md:py-[60px] md:px-[80px] uk-grid-large" uk-grid>
                     <div class="flex flex-col space-y-[12px]">
-                        <h2 class="text-[#111] heading-third" uk-scrollspy="cls: uk-animation-fade; delay: 100; repeat: true">GET IN TOUCH</h2>
+                        <h2 class="text-[#111] heading-third" uk-scrollspy="cls: uk-animation-fade; delay: 100; repeat: true">Are you Interested?</h2>
                         <div>
                             <p class="text-lg xl:text-xl 2xl:text-2xl text-[#111] text-opacity-[0.48]" uk-scrollspy="cls: uk-animation-fade; delay: 100; repeat: true">
-                                At Linestar, we pride ourselves on our 24/7 accessibility.
+                                Come join our family!
                             </p>
                         </div>
                         <div class="text-[#CE0000]">
                             <a href="#" class="text-[#CE0000] font-500 text-lg xl:text-xl 2xl:text-2xl flex items-center hover-link-none group mt-[10px]" uk-scrollspy="cls: uk-animation-fade; delay: 100; repeat: true">
-                                Request a quote
+                                See other vacancies
                                 <img class="ml-[6px] group-hover:ml-[16px] duration-200" src="../assets/img/svg/arrow-right.svg" alt="arrow">
                             </a>
                         </div>
                     </div>
                     
                     <div class="text-[#CE0000]">
-                        <a href="#" class="btn-first text-[#CE0000] text-lg font-500 rounded-[4px] bg-[#CE0000] bg-opacity-[0.06] hover-link-none" uk-scrollspy="cls: uk-animation-fade; delay: 100; repeat: true">Contact us</a>
+                        <a href="#" class="btn-first text-[#CE0000] text-lg font-500 rounded-[4px] bg-[#CE0000] bg-opacity-[0.06] hover-link-none" uk-scrollspy="cls: uk-animation-fade; delay: 100; repeat: true">Apply as driver</a>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    
+    <section id="benifits" class="uk-section" uk-scrollspy="target: .animTop; cls: uk-animation-slide-bottom-medium; delay: 100; repeat: true">
+        <div class="uk-container uk-container-xlarge">
+            <div> 
+                <h1 class="heading-second text-[#111] mt-[24px] animTop">Benefits</h1>
+                <div class="mt-[18px] lg:w-[700px]">
+                    <p class="text-[#111] text-opacity-[0.86] text-lg xl:text-xl 2xl:text-2xl animTop">
+                        We're always working on the benefits for our team and constantly looking at new ways to make our family feel valued. At present we offer our drivers:
+                    </p>
+                </div>
+            </div>
+            <div class="uk-margin-large-top" uk-scrollspy="target: .animTop; cls: uk-animation-slide-top-medium; delay: 100;">
+                <ul class="uk-grid-small uk-grid-match uk-child-width-1-5@l uk-child-width-1-3@m uk-child-width-1-2@s befefits-list" uk-grid>
+                    <li class="animTop">
+                        <div class="bg-[#f8f8f8] rounded-[4px] py-[45px] px-[35px] uk-overflow-hidden">
+                            <div class="uk-flex uk-flex-column justify-center">
+                                <div>
+                                    <img class="w-[48px] h-[48px] object-cover" loading="lazy" src="../assets/img/svg/benefits-img-1.svg" alt="benefits">
+                                </div>
+                                <div class="mt-[22px]">
+                                    <h5 class="text-2xl font-500 text-[#111]" style="font-family: 'Jost', sans-serif; ">
+                                        Direct
+                                        deposit
+                                    </h5>
+                                </div>
+                                <div class="mt-[18px]">
+                                    <p class="text-lg text-[#111] text-opacity-[0.64]">
+                                        All of our drivers are paid directly into their bank accounts.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop">
+                        <div class="bg-[#f8f8f8] rounded-[4px] py-[45px] px-[35px] uk-overflow-hidden">
+                            <div class="uk-flex uk-flex-column justify-center">
+                                <div>
+                                    <img class="w-[48px] h-[48px] object-cover" loading="lazy" src="../assets/img/svg/benefits-img-2.svg" alt="benefits">
+                                </div>
+                                <div class="mt-[22px]">
+                                    <h5 class="text-2xl font-500 text-[#111]" style="font-family: 'Jost', sans-serif; ">
+                                        Giving
+                                        advances
+                                    </h5>
+                                </div>
+                                <div class="mt-[18px]">
+                                    <p class="text-lg text-[#111] text-opacity-[0.64]">
+                                        Drivers are provided advances of up to $250 a week.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop">
+                        <div class="bg-[#f8f8f8] rounded-[4px] py-[45px] px-[35px] uk-overflow-hidden">
+                            <div class="uk-flex uk-flex-column justify-center">
+                                <div>
+                                    <img class="w-[48px] h-[48px] object-cover" loading="lazy" src="../assets/img/svg/benefits-img-3.svg" alt="benefits">
+                                </div>
+                                <div class="mt-[22px]">
+                                    <h5 class="text-2xl font-500 text-[#111]" style="font-family: 'Jost', sans-serif; ">
+                                        Bestpass and Prepass transponders
+                                    </h5>
+                                </div>
+                                <div class="mt-[18px]">
+                                    <p class="text-lg text-[#111] text-opacity-[0.64]">
+                                        We care about your time on the road and give you passes to bypass scales across the States.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop"i>
+                        <div class="bg-[#f8f8f8] rounded-[4px] py-[45px] px-[35px] uk-overflow-hidden">
+                            <div class="uk-flex uk-flex-column justify-center">
+                                <div>
+                                    <img class="w-[48px] h-[48px] object-cover" loading="lazy" src="../assets/img/svg/benefits-img-4-.svg" alt="benefits">
+                                </div>
+                                <div class="mt-[22px]">
+                                    <h5 class="text-2xl font-500 text-[#111]" style="font-family: 'Jost', sans-serif; ">
+                                        Roadside Inspection Award
+                                    </h5>
+                                </div>
+                                <div class="mt-[18px]">
+                                    <p class="text-lg text-[#111] text-opacity-[0.64]">
+                                        Our drivers receive rewards if they've had roadside inspections with no violations. They receive $300 for Level 1 - read more
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop">
+                        <div class="bg-[#f8f8f8] rounded-[4px] py-[45px] px-[35px] uk-overflow-hidden">
+                            <div class="uk-flex uk-flex-column justify-center">
+                                <div>
+                                    <img class="w-[48px] h-[48px] object-cover" loading="lazy" src="../assets/img/svg/benefits-img-5-.svg" alt="benefits">
+                                </div>
+                                <div class="mt-[22px]">
+                                    <h5 class="text-2xl font-500 text-[#111]" style="font-family: 'Jost', sans-serif; ">
+                                        Appreciation
+                                        Reward
+                                    </h5>
+                                </div>
+                                <div class="mt-[18px]">
+                                    <p class="text-lg text-[#111] text-opacity-[0.64]">
+                                        We grant awards to our drivers who go above and beyond their work requirements. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop">
+                        <div class="bg-[#f8f8f8] rounded-[4px] py-[45px] px-[35px] uk-overflow-hidden">
+                            <div class="uk-flex uk-flex-column justify-center">
+                                <div>
+                                    <img class="w-[48px] h-[48px] object-cover" loading="lazy" src="../assets/img/svg/benefits-img-6.svg" alt="benefits">
+                                </div>
+                                <div class="mt-[22px]">
+                                    <h5 class="text-2xl font-500 text-[#111]" style="font-family: 'Jost', sans-serif; ">
+                                        Safety award program
+                                    </h5>
+                                </div>
+                                <div class="mt-[18px]">
+                                    <p class="text-lg text-[#111] text-opacity-[0.64]">
+                                        Our drivers who aren't involved in a preventable accident and drive safely on the roads receive yearly awards.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop">
+                        <div class="bg-[#f8f8f8] rounded-[4px] py-[45px] px-[35px] uk-overflow-hidden">
+                            <div class="uk-flex uk-flex-column justify-center">
+                                <div>
+                                    <img class="w-[48px] h-[48px] object-cover" loading="lazy" src="../assets/img/svg/benefits-img-7.svg" alt="benefits">
+                                </div>
+                                <div class="mt-[22px]">
+                                    <h5 class="text-2xl font-500 text-[#111]" style="font-family: 'Jost', sans-serif; ">
+                                        Vacation
+                                        pay
+                                    </h5>
+                                </div>
+                                <div class="mt-[18px]">
+                                    <p class="text-lg text-[#111] text-opacity-[0.64]">
+                                        Full-time drivers accrue generous vacation pay the longer they are with us. Vacation pay - read more
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop">
+                        <div class="bg-[#f8f8f8] rounded-[4px] py-[45px] px-[35px] uk-overflow-hidden">
+                            <div class="uk-flex uk-flex-column justify-center">
+                                <div>
+                                    <img class="w-[48px] h-[48px] object-cover" loading="lazy" src="../assets/img/svg/benefits-img-8.svg" alt="benefits">
+                                </div>
+                                <div class="mt-[22px]">
+                                    <h5 class="text-2xl font-500 text-[#111]" style="font-family: 'Jost', sans-serif; ">
+                                        Bonus
+                                        program
+                                    </h5>
+                                </div>
+                                <div class="mt-[18px]">
+                                    <p class="text-lg text-[#111] text-opacity-[0.64]">
+                                        We acknowledge our drivers going the distance and reward them for each extra stop they make. For 1 extra - read more
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop">
+                        <div class="bg-[#f8f8f8] rounded-[4px] py-[45px] px-[35px] uk-overflow-hidden">
+                            <div class="uk-flex uk-flex-column justify-center">
+                                <div>
+                                    <img class="w-[48px] h-[48px] object-cover" loading="lazy" src="../assets/img/svg/benefits-img-9.svg" alt="benefits">
+                                </div>
+                                <div class="mt-[22px]">
+                                    <h5 class="text-2xl font-500 text-[#111]" style="font-family: 'Jost', sans-serif; ">
+                                        Referral
+                                        program
+                                    </h5>
+                                </div>
+                                <div class="mt-[18px]">
+                                    <p class="text-lg text-[#111] text-opacity-[0.64]">
+                                        We care about growing the driving community. Every driver that is referred to us by an existing driver - read more
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop">
+                        <div class="bg-[#f8f8f8] rounded-[4px] py-[45px] px-[35px] uk-overflow-hidden">
+                            <div class="uk-flex uk-flex-column justify-center">
+                                <div>
+                                    <img class="w-[48px] h-[48px] object-cover" loading="lazy" src="../assets/img/svg/benefits-img-10.svg" alt="benefits">
+                                </div>
+                                <div class="mt-[22px]">
+                                    <h5 class="text-2xl font-500 text-[#111]" style="font-family: 'Jost', sans-serif; ">
+                                        Holiday
+                                        pay
+                                    </h5>
+                                </div>
+                                <div class="mt-[18px]">
+                                    <p class="text-lg text-[#111] text-opacity-[0.64]">
+                                        Upon completion of 90 days of employment, full time drivers receive $100 holiday pay for Easter, July 4th - read more
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="qualification" class="uk-section" uk-scrollspy="target: .animTop; cls: uk-animation-slide-bottom-medium; delay: 100; repeat: true">
+        <div class="uk-container uk-container-xlarge">
+            <div> 
+                <h2 class="heading-second text-[#111] mt-[24px] animTop">Driver qualification</h2>
+                <div class="mt-[18px] lg:w-[700px]">
+                    <p class="text-[#111] text-opacity-[0.64] text-lg xl:text-xl 2xl:text-2xl animTop">
+                        At the minimum, our drivers must have the following:
+                    </p>
+                </div>
+            </div>
+            
+            <div class="mt-[48px] lg:w-[840px]">
+                <ul class="flex flex-col space-y-[24px]" uk-scrollspy="target: .animTop2; cls: uk-animation-slide-bottom-medium; delay: 100;">
+                    <li class="animTop2">
+                        <div class="flex">
+                            <div>
+                                <div class="w-[18px] h-[18px] rounded-full bg-[#CE0000] mt-[5px]"></div>
+                            </div>
+                            <div class="ml-[18px]">
+                                <p class="text-[#111] text-xl xl:text-[26px] 2xl:text-[30px] xl:leading-[40px]">
+                                    Aged 23 years old or above
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop2">
+                        <div class="flex">
+                            <div>
+                                <div class="w-[18px] h-[18px] rounded-full bg-[#CE0000] mt-[5px]"></div>
+                            </div>
+                            <div class="ml-[18px]">
+                                <p class="text-[#111] text-xl xl:text-[26px] 2xl:text-[30px] xl:leading-[40px]">
+                                    Own a Valid CDL-A License
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop2">
+                        <div class="flex">
+                            <div>
+                                <div class="w-[18px] h-[18px] rounded-full bg-[#CE0000] mt-[5px]"></div>
+                            </div>
+                            <div class="ml-[18px]">
+                                <p class="text-[#111] text-xl xl:text-[26px] 2xl:text-[30px] xl:leading-[40px]">
+                                    A minimum of 12 months of current trucker/trailer experience
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop2">
+                        <div class="flex">
+                            <div>
+                                <div class="w-[18px] h-[18px] rounded-full bg-[#CE0000] mt-[5px]"></div>
+                            </div>
+                            <div class="ml-[18px]">
+                                <p class="text-[#111] text-xl xl:text-[26px] 2xl:text-[30px] xl:leading-[40px]">
+                                    No more than 6 jobs in the last three years
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop2">
+                        <div class="flex">
+                            <div>
+                                <div class="w-[18px] h-[18px] rounded-full bg-[#CE0000] mt-[5px]"></div>
+                            </div>
+                            <div class="ml-[18px]">
+                                <p class="text-[#111] text-xl xl:text-[26px] 2xl:text-[30px] xl:leading-[40px]">
+                                    No more than 2 out of service violations in n the last two years
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop2">
+                        <div class="flex">
+                            <div>
+                                <div class="w-[18px] h-[18px] rounded-full bg-[#CE0000] mt-[5px]"></div>
+                            </div>
+                            <div class="ml-[18px]">
+                                <p class="text-[#111] text-xl xl:text-[26px] 2xl:text-[30px] xl:leading-[40px]">
+                                    No DUI, Test Refusal, DWI, Drug Convictions, Reckless Driving
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop2">
+                        <div class="flex">
+                            <div>
+                                <div class="w-[18px] h-[18px] rounded-full bg-[#CE0000] mt-[5px]"></div>
+                            </div>
+                            <div class="ml-[18px]">
+                                <p class="text-[#111] text-xl xl:text-[26px] 2xl:text-[30px] xl:leading-[40px]">
+                                    No additional felonies in the past five years, including Hit and Run, Leaving the scene of an accident, Passing a School Bus, or Racing.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop2">
+                        <div class="flex">
+                            <div>
+                                <div class="w-[18px] h-[18px] rounded-full bg-[#CE0000] mt-[5px]"></div>
+                            </div>
+                            <div class="ml-[18px]">
+                                <p class="text-[#111] text-xl xl:text-[26px] 2xl:text-[30px] xl:leading-[40px]">
+                                    You must have passed and had a current DOT physical.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop2">
+                        <div class="flex">
+                            <div>
+                                <div class="w-[18px] h-[18px] rounded-full bg-[#CE0000] mt-[5px]"></div>
+                            </div>
+                            <div class="ml-[18px]">
+                                <p class="text-[#111] text-xl xl:text-[26px] 2xl:text-[30px] xl:leading-[40px]">
+                                    Willing to take and pass DOT drug tests
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="orientation" class="uk-section uk-overflow-hidden" uk-scrollspy="target: .animTop; cls: uk-animation-slide-bottom-medium; delay: 100; repeat: true">
+        <div class="uk-container uk-container-xlarge driver-qualification-container">
+            <div> 
+                <h2 class="heading-second text-[#111] mt-[24px] animTop">Orientation</h2>
+                <div class="mt-[18px] lg:w-[700px]">
+                    <p class="text-[#111] text-opacity-[0.64] text-lg xl:text-xl 2xl:text-2xl animTop">
+                        Upon joining our company, we provide the following:
+                    </p>
+                </div>
+            </div>
+            
+            <div class="mt-[64px] uk-flex-between uk-visible@m" uk-grid>
+                <div>
+                    <div class="uk-flex-middle" uk-grid>
+                        <div class="relative flex justify-center">
+                            <div class="w-[2px] h-[170px] bg-[#ddd] driver-qualification-line">
+                                <div class="w-[2px] h-full bg-[#CE0000] driver-qualification-line1"></div>
+                            </div>
+                            <div class="w-[24px] h-[24px] border-[6px] border-[#CE0000] rounded-full absolute top-[-24px] left-[29px] bg-[#fff]"></div>
+                            <div class="driver-qualification-circle1 w-[24px] h-[24px] border-[6px] border-[#CE0000] rounded-full absolute top-[80px] left-[29px] bg-[#fff]" style="z-index: 1;"></div>
+                            <div class="driver-qualification-circle2 w-[24px] h-[24px] border-[6px] border-[#CE0000] rounded-full absolute bottom-[-24px] left-[29px] bg-[#fff]" style="z-index: 1;"></div>
+                        </div>
+                        <div class="">
+                            <div>
+                                <h2 class="active text-[#111] font-500 text-[28px] xl:text-[30px] 2xl:text-[36px]">Hotel accommodation</h2>
+                            </div>
+                            <div class="mt-[49px]">
+                                <h2 class="text-[#111] font-500 text-[28px] xl:text-[30px] 2xl:text-[36px]">Transportation to and from orientation</h2>
+                            </div>
+                            <div class="mt-[49px]">
+                                <h2 class="text-[#111] font-500 text-[28px] xl:text-[30px] 2xl:text-[36px]">Pick and drop facility from the airport</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="uk-position-relative uk-visible-toggle orientation-container" tabindex="-1" uk-slideshow="animation: fade; autoplay: true">
+                        
+                        <ul class="uk-slideshow-items relative uk-overflow-hidden" uk-scrollspy="target: .animFade; cls: uk-animation; delay: 100;">
+                            <li class="animFade qualification-item">
+                                <div>
+                                    <div class="flex justify-center md:justify-end">
+                                        <img class="rounded-[4px] object-cover max-h-[210px]" src="../assets/img/drivers/orientation-img.png" alt="qualification">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="animFade qualification-item">
+                                <div>
+                                    <div class="flex justify-center md:justify-end">
+                                        <img class="rounded-[4px] object-cover max-h-[210px]" src="../assets/img/drivers/orientation-img.png" alt="qualification">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="animFade qualification-item">
+                                <div>
+                                    <div class="flex justify-center md:justify-end">
+                                        <img class="rounded-[4px] object-cover max-h-[210px]" src="../assets/img/drivers/orientation-img.png" alt="qualification">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-[64px] uk-hidden@m">
+                <div class="uk-child-width-1-1" uk-grid>
+                    <div>
+                        <div class="uk-child-width-1-1 uk-grid-medium" uk-grid>
+                            <div>
+                                <h2 class="text-[#111] font-500 text-[28px] sm:text-[30px]">Hotel accommodation</h2>
+                            </div>
+                            <div>
+                                <img class="object-cover w-full" src="../assets/img/drivers/orientation-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-child-width-1-1 uk-grid-medium" uk-grid>
+                            <div>
+                                <h2 class="text-[#111] font-500 text-[28px] sm:text-[30px]">Hotel accommodation</h2>
+                            </div>
+                            <div>
+                                <img class="object-cover w-full" src="../assets/img/drivers/orientation-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-child-width-1-1 uk-grid-medium" uk-grid>
+                            <div>
+                                <h2 class="text-[#111] font-500 text-[28px] sm:text-[30px]">Hotel accommodation</h2>
+                            </div>
+                            <div>
+                                <img class="object-cover w-full" src="../assets/img/drivers/orientation-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="uk-section uk-margin-large-bottom uk-overflow-hidden" uk-scrollspy="target: .animTop; cls: uk-animation-slide-bottom-medium; delay: 100; repeat: true">
+        <div class="uk-container uk-container-xlarge">
+            <div> 
+                <h2 class="heading-second text-[#111] mt-[24px] animTop">Vacancies</h2>
+                <div class="mt-[18px]">
+                    <p class="text-[#111] text-opacity-[0.64] text-lg xl:text-xl 2xl:text-2xl animTop">
+                        We regularly hire solo and team drivers for the following roles:
+                    </p>
+                </div>
+            </div>
+            
+            <div class="mt-[30px]" uk-scrollspy="target: .animLeft; cls: uk-animation-slide-left; delay: 100;">
+                <ul class="uk-child-width-1-1" uk-grid uk-scrollspy="target: .animRight; cls: uk-animation-slide-right; delay: 100;">
+                    <li>
+                        <div>
+                            <hr class="border-none w-full h-[1px] bg-[#f2f2f2]">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-flex-middle uk-flex-between" uk-grid>
+                            <div class="w-[180px] sm:w-auto animLeft">
+                                <h3 class="text-[#111] text-[18px] sm:text-[28px] xl:text-[30px] 2xl:text-[36px]">Owner Operators</h3>
+                            </div>
+                            <div>
+                                <div class="text-[#111] uk-animation-fade">
+                                    <button class="btn-first sm:text-[18px] bg-[#CE0000] text-[#fff] hover:animate-pulse animRight">
+                                        Apply now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <hr class="border-none w-full h-[1px] bg-[#f2f2f2]">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-flex-middle uk-flex-between" uk-grid>
+                            <div class="w-[180px] sm:w-auto animLeft">
+                                <h3 class="text-[#111] text-[18px] sm:text-[28px] xl:text-[30px] 2xl:text-[36px]">Lease Away and Lease to own</h3>
+                            </div>
+                            <div>
+                                <div class="text-[#111] uk-animation-fade">
+                                    <button class="btn-first sm:text-[18px] bg-[#CE0000] text-[#fff] hover:animate-pulse animRight">
+                                        Apply now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <hr class="border-none w-full h-[1px] bg-[#f2f2f2]">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-flex-middle uk-flex-between" uk-grid>
+                            <div class="w-[180px] sm:w-auto animLeft">
+                                <h3 class="text-[#111] text-[18px] sm:text-[28px] xl:text-[30px] 2xl:text-[36px]">Company Driver</h3>
+                            </div>
+                            <div>
+                                <div class="text-[#111] uk-animation-fade">
+                                    <button class="btn-first sm:text-[18px] bg-[#CE0000] text-[#fff] hover:animate-pulse animRight">
+                                        Apply now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <hr class="border-none w-full h-[1px] bg-[#f2f2f2]">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
         </div>
     </section>
     
@@ -1273,22 +1252,7 @@
     <script src="../assets/js/uikit-icons.min.js"></script>
     <script src="../assets/js/uikit.min.js"></script>
     
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    
     <script src="../assets/js/main.js"></script>
-    
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            pagination: {
-                el: ".swiper-pagination",
-                type: "fraction",
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-    </script>
     
 </body>
 </html>

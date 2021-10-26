@@ -4,25 +4,21 @@ let onlyOnce = { value: true };
 window.onscroll = () => {
     start(counters, onlyOnce);
 };
-
 function start(counters, onlyOnce) {
     if (window.scrollY > 200 && onlyOnce.value) {
         onlyOnce.value = false;
         if (counters) {
             counters.forEach(c => {
                 const counter = c.querySelector('.num');
-                animateValue(counter, 0, counter.innerText, 3000);
+                animateValue(counter, 0, counter.innerText, 1000);
             });
         }
     }
 }
-
 function animateValue(obj, start, end, duration) {
-
     if (start === end) {
         return;
     }
-
     const range = end - start;
     let current = start;
     const increment = end > start ? 1 : -1;
@@ -35,3 +31,8 @@ function animateValue(obj, start, end, duration) {
         }
     }, stepTime);
 }
+
+window.onload = function() {
+    const el = document.getElementById('overlay');
+    el.style.display = 'none';
+};
