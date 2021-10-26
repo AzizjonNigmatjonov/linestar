@@ -1256,7 +1256,7 @@
             </div>
         </div>
     </footer>
-
+    
     <div id="overlay" class="uk-position-fixed uk-width-1-1 uk-height-1-1 uk-position-top-left uk-flex uk-flex-center uk-flex-middle" style="background-color: #111 !important; z-index: 10001;">
         <div id="loader" class="w-full h-full">
             <div class="bg-[#111] w-full h-full flex items-center flex-col justify-center">
@@ -1282,6 +1282,10 @@
             pagination: {
                 el: ".swiper-pagination",
                 type: "fraction",
+            },
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
             },
             navigation: {
                 nextEl: ".swiper-button-next",
