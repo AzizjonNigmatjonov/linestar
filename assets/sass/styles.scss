@@ -7,6 +7,28 @@
 body {
     font-family: 'Jost', sans-serif;
 }
+html::-webkit-scrollbar {
+    width: 12px;
+    height: 7px;
+    margin-right: 2px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: linear-gradient(60deg, #CE0000 43%, #CE0000 49%);
+    border-radius: 12px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(13deg, #CE0000 14%, #CE0000 64%);
+}
+
+html::-webit-scrollbar-track {
+    background: rgba(245, 245, 245, 0.88);
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0px 0px 0px rgba(245, 245, 245, 0.88);
+    box-shadow: inset 0px 0px 0px rgba(245, 245, 245, 0.88);
+}
+
 .navbar .uk-dropdown {
     width: 340px;
     border-radius: 4px;
