@@ -505,7 +505,10 @@ body {
     height: 437px;
   }
   .about-mount-content-wrapper-line-left {
-    right: -80px;
+    right: 10px;
+  }
+  .about-mount-content-wrapper-line-left > div {
+    width: 540px;
   }
   .about-mount-content-wrapper-line-right {
     left: -90px;
