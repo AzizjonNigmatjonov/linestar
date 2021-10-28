@@ -133,6 +133,29 @@ html::-webit-scrollbar-track {
 #formcheck:checked {
     background: no-repeat center/auto url("../img/svg/check.svg");
 }
+.navbar {
+    .text-area-nav {
+        color: #111 !important;
+        font-size: 18px;
+    }
+    .text-area-nav:focus {
+        outline: 2px solid #CE0000;
+        background-color: #f8f8f8;
+    }
+    .text-area-nav {
+        border: none;
+        background-color: #f8f8f8;
+    }
+    .text-area-nav::-webkit-input-placeholder  {
+        color: #111;
+        opacity: 0.36;
+        font-weight: normal;
+        font-size: 18px;
+    }
+    .text-area-nav:-ms-input-placeholder {
+        color: #111 !important;  
+    }
+}
 .contact {
     textarea {
         color: #111 !important;
@@ -216,6 +239,23 @@ html::-webit-scrollbar-track {
 }
 .digitals-container {
     padding-left: 150px;
+}
+.services-item.active {
+    .wrapper {
+        background-color: #CE0000 !important;
+    }
+    .box {
+        background-color: #fff;
+    }
+    .title {
+        color: #fff;
+    }
+    .paragraph {
+        color: #fff;
+    }
+    .service-link p {
+        color: #fff;
+    }
 }
 // why choose us section end
 // Responsivr start

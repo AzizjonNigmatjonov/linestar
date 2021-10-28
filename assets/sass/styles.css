@@ -10,6 +10,28 @@ body {
   font-family: 'Jost', sans-serif;
 }
 
+html::-webkit-scrollbar {
+  width: 12px;
+  height: 7px;
+  margin-right: 2px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(60deg, #CE0000 43%, #CE0000 49%);
+  border-radius: 12px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(13deg, #CE0000 14%, #CE0000 64%);
+}
+
+html::-webit-scrollbar-track {
+  background: rgba(245, 245, 245, 0.88);
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0px 0px 0px rgba(245, 245, 245, 0.88);
+  box-shadow: inset 0px 0px 0px rgba(245, 245, 245, 0.88);
+}
+
 .navbar .uk-dropdown {
   width: 340px;
   border-radius: 4px;
@@ -143,6 +165,32 @@ body {
   background: no-repeat center/auto url("../img/svg/check.svg");
 }
 
+.navbar .text-area-nav {
+  color: #111 !important;
+  font-size: 18px;
+}
+
+.navbar .text-area-nav:focus {
+  outline: 2px solid #CE0000;
+  background-color: #f8f8f8;
+}
+
+.navbar .text-area-nav {
+  border: none;
+  background-color: #f8f8f8;
+}
+
+.navbar .text-area-nav::-webkit-input-placeholder {
+  color: #111;
+  opacity: 0.36;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.navbar .text-area-nav:-ms-input-placeholder {
+  color: #111 !important;
+}
+
 .contact textarea {
   color: #111 !important;
   font-size: 18px;
@@ -242,6 +290,26 @@ body {
 
 .digitals-container {
   padding-left: 150px;
+}
+
+.services-item.active .wrapper {
+  background-color: #CE0000 !important;
+}
+
+.services-item.active .box {
+  background-color: #fff;
+}
+
+.services-item.active .title {
+  color: #fff;
+}
+
+.services-item.active .paragraph {
+  color: #fff;
+}
+
+.services-item.active .service-link p {
+  color: #fff;
 }
 
 @media (min-width: 1920px) {
